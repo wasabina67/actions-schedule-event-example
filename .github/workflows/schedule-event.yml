@@ -1,13 +1,13 @@
 name: schedule-event
 
 on:
-  schedule:
+  # schedule:
     # 10:00 AM on JST
-    - cron: '0 1 * * *'
+    # - cron: '0 1 * * *'
     # 02:00 PM on JST
-    - cron: '0 5 * * *'
+    # - cron: '0 5 * * *'
     # 06:00 PM on JST
-    - cron: '0 9 * * *'
+    # - cron: '0 9 * * *'
   workflow_dispatch:
 
 jobs:
