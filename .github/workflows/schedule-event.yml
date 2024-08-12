@@ -1,7 +1,7 @@
 name: schedule-event
 
 on:
-  schedule:
+  # schedule:
     # 10:00 AM on JST
     # - cron: '0 1 * * *'
     # 02:00 PM on JST
