@@ -1,1 +1,16 @@
 name: schedule-event
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+    - cron: '0 5 * * *'
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  schedule-event:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Main
+        run: date
